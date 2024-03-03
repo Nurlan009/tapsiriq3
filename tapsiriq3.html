@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body  bgcolor="darkgrey">
+    <form action="">
     <table border="1" width="550" height="400" align="center" >
     <thead> 
     <tr>
@@ -14,128 +15,103 @@
     <tr>
         <th bgcolor="lightgreen" width="50" height="50"> Şəkil yükləyin</th>
         <th bgcolor="lightgrey" colspan="2">
-    <form align="center" action="">
         <input type="file" >
-    </form> 
         </th>
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50"> Ad </th>
         <th bgcolor="lightgrey" colspan="2">
-    <form align="center" action="">
         <input  type="text" onfocus="this.value=''" value="Ad" >
-    </form>  
         </th> 
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50"> Soyad</th>
         <th bgcolor="lightgrey" colspan="2">
-    <form align="center" action="">
         <input type="text" onfocus="this.value=''" value="Soyad" >
-    </form> 
         </th> 
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50"> Doğum tarixi </th>
         <th bgcolor="lightgrey" colspan="2">
-    <form action="">
         <input type="date">
-    </form>
         </th>  
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50">Cinsiyyət </th>
         <th bgcolor="lightgrey" colspan="2">
-    <form action="">
         <label for="kisi"> Kişi</label>
         <input type="radio" id="kisi"  name="cinsiyyet" value="kisi">
         <label for="qadin">Qadın</label>
         <input type="radio" id="qadin" name="cinsiyyet" value="qadin">
-    </form>
         </th>
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50">Email </th>
         <th bgcolor="lightgrey" colspan="2">
-    <form align="center" action="">
         <input type="text" onfocus="this.value=''" value="Emailinizi daxil edin" >
-    </form> 
         </th>
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50" rowspan="2"> Əlaqə </th>
         <th bgcolor="tan" width="50" height="50"> TEL-1</th>
         <th bgcolor="lightgrey" > 
-    <form align="center" action="">
         <input type="text" onfocus="this.value=''" value="Phone" >
-    </form> 
         </th>
     </tr>
     <tr>
         <th bgcolor="tan" width="50" height="50"> TEL-2 </th>
         <th bgcolor="lightgrey">
-    <form align="center" action="">
         <input type="text" onfocus="this.value=''" value="Phone" >
-    </form> 
         </th> 
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50"> Təcrübələriniz </th>
         <th bgcolor="lightgrey" colspan="2">
-    <form align="center" action="">
+    
         <textarea cols="40" rows="3" onfocus="if(this.value==this.defaultValue)this.value='';" 
         onblur="if(this.value=='')this.value=this.defaultValue;">
         Təcrübələrinizi daxil edin... 
         </textarea>
-       
-    </form> 
         </th>  
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50"> Xarici dillər</th>
         <th bgcolor="lightgrey" colspan="2">
-    <form action="">
         <label for="ingilis"> İngilis dili</label>
         <input type="checkbox" id="ingilis"  name="dil" value="ingilis">
         <label for="turk">Türk dili</label>
         <input type="checkbox" id="turk" name="dil" value="turk">
         <label for="rus">Rus dili</label>
         <input type="checkbox" id="rus" name="dil" value="rus">
-    </form>
         </th>  
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50">Əsgərlik </th>
         <th bgcolor="lightgrey" colspan="2">
-    <form action="">
         <select id="esgerlik" name="esgerlik">
         <option value="olub">Xidmətdə olub</option>
         <option value="olmayib">Xidmətdə olmayıb</option>
         </select>
-    </form>     
         </th>
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50"> Təhsil </th>
         <th bgcolor="lightgrey" colspan="2"> 
-    <form action="">
         <select id="tehsil" name="tehsil">
         <option value="orta"> Orta təhsil</option>
         <option value="kollec">Kollec təhsili</option>
         <option value="ali">Ali təhsil</option>
         </select>
-    </form> 
         </th>
     </tr>
     <tr>
         <th bgcolor="lightgreen" width="50" height="50" colspan="3">  
-    <form align="center" action="">
         <input type="submit" value="Təsdiq et">
-    </form> 
         </th> 
     </tr>
     </thead>
     </table>
+</form>
         <hr color="lightgreen"><hr>
         <hr color="lightgreen"><hr> 
         <h1 align="center">Bizim Haqqımızda</h1>
